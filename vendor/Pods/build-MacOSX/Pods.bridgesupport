@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<signatures version='1.0'>
+<struct name='NIKEdgeInsets' type='{_NIKEdgeInsets=&quot;top&quot;f&quot;left&quot;f&quot;bottom&quot;f&quot;right&quot;f}' type64='{_NIKEdgeInsets=&quot;top&quot;d&quot;left&quot;d&quot;bottom&quot;d&quot;right&quot;d}'>
+<field declared_type='CGFloat' name='top' type='f' type64='d'/>
+<field declared_type='CGFloat' name='left' type='f' type64='d'/>
+<field declared_type='CGFloat' name='bottom' type='f' type64='d'/>
+<field declared_type='CGFloat' name='right' type='f' type64='d'/>
+</struct>
+<class name='NIKFontAwesomeIconFactory'>
+<method class_method='true' selector='bevelButtonIconFactory'>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='colors'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='createImageForIcon:'>
+<arg declared_type='id' index='0' name='icon' type='@'/>
+<retval declared_type='NSImage*' type='^{NSImage=#@{_NSSize=ff}{__imageFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b2b3b1b1b1b8}@@}' type64='^{NSImage=#@{CGSize=dd}{__imageFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b2b3b1b1b1b8}@@}'/>
+</method>
+<method selector='edgeInsets'>
+<retval declared_type='NIKEdgeInsets' type='{_NIKEdgeInsets=ffff}' type64='{_NIKEdgeInsets=dddd}'/>
+</method>
+<method selector='isPadded'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='isSquare'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method class_method='true' selector='pushButtonIconFactory'>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='setColors:'>
+<arg declared_type='NSArray*' index='0' name='colors' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setEdgeInsets:'>
+<arg declared_type='NIKEdgeInsets' index='0' name='edgeInsets' type='{_NIKEdgeInsets=ffff}' type64='{_NIKEdgeInsets=dddd}'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setPadded:'>
+<arg declared_type='BOOL' index='0' name='padded' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setSize:'>
+<arg declared_type='CGFloat' index='0' name='size' type='f' type64='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setSquare:'>
+<arg declared_type='BOOL' index='0' name='square' type='B'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setStrokeColor:'>
+<arg declared_type='NSColor*' index='0' name='strokeColor' type='^{NSColor=#}'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setStrokeWidth:'>
+<arg declared_type='CGFloat' index='0' name='strokeWidth' type='f' type64='d'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='size'>
+<retval declared_type='CGFloat' type='f' type64='d'/>
+</method>
+<method selector='strokeColor'>
+<retval declared_type='NSColor*' type='^{NSColor=#}'/>
+</method>
+<method selector='strokeWidth'>
+<retval declared_type='CGFloat' type='f' type64='d'/>
+</method>
+<method class_method='true' selector='toolbarItemIconFactory'>
+<retval declared_type='id' type='@'/>
+</method>
+</class>
+</signatures>
